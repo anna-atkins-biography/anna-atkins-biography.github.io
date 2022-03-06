@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+  <html lang="en">
+  
+    <head>
+      <title>Biography of Anna Atkins</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link type="text/css" rel="stylesheet" href="../css/photographer.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital@1&display=swap" rel="stylesheet">     
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100&family=Josefin+Slab:ital@1&family=Montserrat:ital@1&display=swap" rel="stylesheet">      
+      <script src="photographer.js" defer></script>
+ 
+    </head>
+
+    <body class="bg-light body-photos main-font text-dark">
+      <header class="primary-header flex">
+
+      <div class="nav-display">
+        <a href="index.html"><img src="imgs/icon.png" alt="icon" class="header_icon"/></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+      </div>        <nav>
+          <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
+            <li class="text-accent nav-item fs-600"><a href="index.html">Home</a></li>
+            <li class="text-accent nav-item fs-600"><a href="bio.html">Biography</a></li>
+            <li class="text-accent nav-item fs-600"><a href="photos.html">Photographes</a></li>
+            <li class="text-accent nav-item fs-600"><a href="how_to.html">How To</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main_photos flex-column">
+      	<h1 class="fs-800 photo_header center">Photographes</h1>
+
+        <section class="photo_section_one">
+      	  <h2 class="fs-700 margin-top center">Ferns</h2>
+          <article class="gallery gallery_fern">
+        
+        	  <button id="fern-previous" class="btn_gallery btn_gallery-fern margin-top-bottom">
+      			  <span aria-label="previous" class="material-icons">arrow_left</span>
+       		  </button>
+  
+            <figure>
+          	  <img src="imgs/ferns/fern_first-img.png" alt="" class="gallery_img gallery_fern-img margin-top-bottom" id="fern-image"/>        
+        	    <figcaption id="fern-caption" class="fs-600 center margin-top-bottom">Cover of British and Foreign Ferns</figcaption>
+            </figure>
+
+        	  <button id="fern-next" class="btn_gallery btn_gallery-fern margin-top-bottom">
+        		  <span aria-label="next" class="material-icons">arrow_right</span>
+        	  </button>  
+          </article>
+        </section>
+
+      
+
+
+
+        <section class="photo_section_two">
+      	  <h2 class="fs-700 margin-top center">Algae</h2>
+        	<article class="gallery gallery-algae">
+        	
+        	  <button id="algae-previous" class="btn_gallery btn_gallery-algae margin-top-bottom">
+      			  <span aria-label="previous" class="material-icons">arrow_left</span>
+        	  </button>      		
+
+            <figure>
+          	  <img src="imgs/algae/algae_first-img.png" alt="Cover of Photographes of British Algae" class="gallery_img gallery_algae-imag margin-top-bottom" id="algae-image" />
+          	  <figcaption id="alga-caption" class="fs-600 center margin-top-bottom">Cover of British Algae</figcaption>
+            </figure>
+
+        	  <button id="algae-next" class="btn_gallery btn_gallery-algae margin-top-bottom">
+        		  <span aria-label="next" class="material-icons">arrow_right</span>
+        	  </button>      	
+          </article>
+      	</section>
+
+
+
+
+
+      </main>
+    </body>
+
+</html>
