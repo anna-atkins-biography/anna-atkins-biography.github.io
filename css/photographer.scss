@@ -222,7 +222,7 @@ $fs-200: 0.875rem;
   right: 0.5rem;
   top: 0.75rem;
   background: transparent;
-  background-image: url(imgs/hamburger.png);
+  background-image: url(../imgs/hamburger.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 2rem;
@@ -246,7 +246,7 @@ $fs-200: 0.875rem;
   transition: transform 500ms ease-in-out;
 }
 .mobile-nav-toggle[aria-expanded="true"] {
-  background-image: url(imgs/close.png);
+  background-image: url(../imgs/close.png);
 }
     
 .mobile-nav-toggle:focus-visible {
