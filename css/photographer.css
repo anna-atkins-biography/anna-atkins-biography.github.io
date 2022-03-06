@@ -243,7 +243,7 @@ select {
   right: 0.5rem;
   top: 0.75rem;
   background: transparent;
-  background-image: url(imgs/hamburger.png);
+  background-image: url(hamburger.png);
   background-repeat: no-repeat;
   background-position: center;
   width: 2rem;
