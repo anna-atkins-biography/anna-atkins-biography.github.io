@@ -549,14 +549,25 @@ select {
 .figure_img_two {
   display: none;
 }
-
-.video {
-  display: block;
-  margin: 2rem auto;
-  border: none;
-  border: 1px solid #3399FF;
+.individual-video-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 75%;
 }
 
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin: 2.5rem 0;
+}
 .resources {
   justify-content: center;
   align-items: center;
