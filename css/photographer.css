@@ -472,6 +472,7 @@ select {
   height: 25rem;
   width: auto;
   border: 1px solid #3399FF;
+  max-width: 18rem;
 }
 
 .gallery {
