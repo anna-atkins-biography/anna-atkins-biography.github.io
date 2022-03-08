@@ -233,7 +233,7 @@ select {
 }
 
 .primary-navigation[data-visible=true] {
-  transform: translateX(50%);
+  transform: translateX(40%);
 }
 
 .mobile-nav-toggle {
