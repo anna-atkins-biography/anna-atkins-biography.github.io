@@ -592,12 +592,27 @@ select {
   .video-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    width: 100vw;
   }
 
-  .video {
-    margin-inline: 2rem;
-  }
+.individual-video-container{
+  position: relative;
+  width: 92%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 92%;
+  height: 50%;
+  border: none;
+  margin: 0 1rem;
+}
 }
 
 /*# sourceMappingURL=photographer.css.map */
