@@ -233,7 +233,7 @@ select {
 }
 
 .primary-navigation[data-visible=true] {
-  transform: translateX(60%);
+  transform: translateX(50%);
 }
 
 .mobile-nav-toggle {
@@ -472,6 +472,7 @@ select {
   height: 25rem;
   width: auto;
   border: 1px solid #3399FF;
+  min-width: 18rem;
 }
 
 .gallery {
